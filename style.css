@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(/Background2.png);
+    color: white;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 50px;
+    height: 70px;
+    align-items: center;
+}
+.links{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.links li{
+    font-size: 18px;
+    color: orange;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+#logo{
+    color: orange;
+    font-size: 30px;
+    font-weight: 600;
+}
+#icons{
+    display: flex;
+    gap: 25px;
+    color: black;
+}
+#icons i{
+    font-size: 20px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-top: 70px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+    align-items: start;
+}
+.left1{
+    font-size: 30px;
+    font-style: italic;
+}
+.left2{
+    font-size: 85px;
+    font-weight: 600;
+}
+.left3{
+    font-size: 27px;
+    font-style: italic;
+    color: orange;
+    margin-bottom: 15px;
+}
+.left4{
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 30px;
+
+}
+.food{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+#food{
+    background: url(/food.png);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+#food1,#food2,#food3,#food4{
+    border: 2px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+#items{
+    display: flex;
+    padding-left: 200px;
+     margin-bottom: 50px;
+     gap: 20px;
+}
+#food1{
+    background: url(/food1.png);
+    background-size: cover;
+}
+#food2{
+    background: url(/food2.png);
+    background-size: cover;
+}
+#food3{
+    background: url(/food3.png);
+    background-size: cover;
+}
+#food4{
+    background: url(/food4.png);
+    background-size: cover;
+}
